@@ -1,0 +1,51 @@
+body {
+  background: #d5d5d5;
+  font-family: 'comic sans MS', 'Meiryo', sans-serif;
+  font-size: 16px;
+}
+  
+canvas {
+  background: #fff;
+  margin-top: 10px;
+}
+
+.flex {
+  margin-top: 10px;
+  display: flex;
+}
+
+#btn {
+  width: 130px;
+  height: 40px;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 40px;
+  text-align: center;
+  background: #38f;
+  color: #fff;
+  border: 2px solid #666;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #15c;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 20px;
+}
+
+#btn:hover {
+  opacity: 0.9;
+}
+
+label {
+  width: 80px;
+  margin-left: 50px;
+}
+
+input {
+  width: 80px;
+  border-radius: 4px;
+}
+
+#change {
+  margin: 15px 0;
+}
